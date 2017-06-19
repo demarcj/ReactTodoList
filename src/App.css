@@ -22,3 +22,26 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+/*Form Settings*/
+.todoApp{
+  padding: 20px 0 0;
+  display: inline-block;
+  text-align: left;
+}
+label{
+  display: block;
+  padding: 10px;
+  margin: auto;
+  font-size: 18px;
+}
+input{
+  font-size: 20px;
+}
+ul{
+  padding: 0px;
+}
+li{
+  list-style: none;
+}
