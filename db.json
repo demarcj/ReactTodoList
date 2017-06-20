@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "name": "JavaScript",
+      "isComplete": true
+    },
+    {
+      "id": 2,
+      "name": "HTML",
+      "isComplete": false
+    },
+    {
+      "id": 16911,
+      "name": "CSS",
+      "isComplete": true
+    },
+    {
+      "id": 75225,
+      "name": "React",
+      "isComplete": false
+    },
+    {
+      "id": 10598,
+      "name": "jQuery",
+      "isComplete": false
+    },
+    {
+      "id": 98132,
+      "name": "Bootstrap",
+      "isComplete": false
+    }
+  ]
+}

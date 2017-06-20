@@ -30,18 +30,51 @@
   display: inline-block;
   text-align: left;
 }
-label{
+
+.error{
+  color: red;
   display: block;
-  padding: 10px;
-  margin: auto;
-  font-size: 18px;
+  text-align: center;
 }
+
+.success{
+  color: green;
+  display: block;
+  text-align: center;
+}
+
+li span.deleteItem{
+  visibility: hidden;
+}
+
+span.deleteItem a{
+  text-decoration: none;
+  color: red;
+}
+
+li:hover span.deleteItem{
+  visibility: visible;
+}
+
 input{
-  font-size: 20px;
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid black;
 }
+
 ul{
   padding: 0px;
 }
+
 li{
   list-style: none;
+}
+
+/*Text Settings*/
+.footer a{
+  padding: 0 2px;
+}
+
+.footer a.active{
+  font-weight: bold;
 }
